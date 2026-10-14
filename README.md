@@ -99,15 +99,15 @@ Database queries utilize PyMongo atomic operators (`$in`, `$gte`, `$lte`) target
 ## Repository Structure
 
 ```text
-├── CRUD_Python_Module.py         # Model: Python class handling authenticated MongoDB CRUD routines
-├── ProjectTwoDashboard.ipynb     # View/Controller: JupyterDash notebook housing layout & callbacks
-├── Grazioso_Salvare_Logo.png     # Brand asset with embedded university hyperlink
-├── screenshot_1_reset.jpg        # Test verification: Default/Reset state
-├── screenshot_2_water_rescue.jpg # Test verification: Water Rescue filter state
-├── screenshot_3_mountain_rescue.jpg  # Test verification: Mountain Rescue filter state
-├── screenshot_4_disaster_rescue.jpg  # Test verification: Disaster Rescue filter state
-└── README.md                     # Technical project documentation
-```
+my-repository/
+├── assets/
+│   ├── screenshot_1_reset.png            # Test verification: Default/Reset state
+│   ├── screenshot_2_water_rescue.png     # Test verification: Water Rescue filter state
+│   ├── screenshot_3_mountain_rescue.png  # Test verification: Mountain Rescue filter state
+│   └── screenshot_4_disaster_rescue.png  # Test verification: Disaster Rescue filter state
+├── CRUD_Python_Module.py                 # Model: Python class handling authenticated MongoDB CRUD routines
+├── ProjectTwoDashboard.ipynb             # View/Controller: JupyterDash notebook housing layout & callbacks
+└── README.md                             # Technical project documentation
 
 ---
 
