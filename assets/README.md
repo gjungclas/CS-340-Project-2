@@ -78,25 +78,21 @@ Database queries utilize PyMongo atomic operators (`$in`, `$gte`, `$lte`) target
 
 ## Dashboard Features & Verification
 
-### 1. Reset State (Default Unfiltered View)
-Displays the complete AAC outcomes dataset across 1,001 pages with native column filtering, multi-sort capabilities, top-10 breed distribution, and initial Austin/Georgetown coordinate pin.
+### Figure 1: Reset State (Unfiltered View)
+![Reset State](assets/screenshot_1_reset.png)
+*Figure 1: Initial starting view displaying all 10,007 records, top 10 breed distribution, and initial Austin/Georgetown Leaflet marker.*
 
-![Reset State Screenshot](screenshot_1_reset.jpg)
+### Figure 2: Water Rescue Filter
+![Water Rescue State](assets/screenshot_2_water_rescue.png)
+*Figure 2: Filter applied for intact female dogs aged 26–156 weeks across Labrador Retriever Mix, Chesapeake Bay Retriever, and Newfoundland breeds.*
 
-### 2. Water Rescue Filter State
-Filters candidates down to intact females matching water retriever profiles. The pie chart reflects the relative proportion of matching water rescue breeds.
+### Figure 3: Mountain or Wilderness Rescue Filter
+![Mountain Rescue State](assets/screenshot_3_mountain_rescue.png)
+*Figure 3: Filter applied for intact male dogs aged 26–156 weeks across German Shepherd, Alaskan Malamute, Old English Sheepdog, Siberian Husky, and Rottweiler breeds.*
 
-![Water Rescue Screenshot](screenshot_2_water_rescue.jpg)
-
-### 3. Mountain or Wilderness Rescue Filter State
-Filters candidates to high-endurance intact male dogs. Selecting rows updates the Leaflet map pin to the animal's recorded intake location.
-
-![Mountain Rescue Screenshot](screenshot_3_mountain_rescue.jpg)
-
-### 4. Disaster Rescue or Individual Tracking Filter State
-Filters dogs suited for scent tracking and rubble navigation across an expanded age range. The pie chart displays relative percentages (e.g., Rottweiler, Bloodhound, German Shepherd).
-
-![Disaster Rescue Screenshot](screenshot_4_disaster_rescue.jpg)
+### Figure 4: Disaster Rescue or Individual Tracking Filter
+![Disaster Rescue State](assets/screenshot_4_disaster_rescue.png)
+*Figure 4: Filter applied for intact male dogs aged 20–300 weeks across Doberman Pinscher, German Shepherd, Golden Retriever, Bloodhound, and Rottweiler breeds.*
 
 ---
 
