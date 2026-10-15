@@ -135,7 +135,7 @@ Configure the application user credentials in the MongoDB `admin` database:
 use admin;
 db.createUser({
   user: "aacuser",
-  pwd: "I<3mongo",
+  pwd: "<YourPasswordHere>",
   roles: [ { role: "readWrite", db: "aac" } ]
 });
 ```
