@@ -55,6 +55,7 @@ The application adheres strictly to the **Model-View-Controller (MVC)** software
 | - Dash Leaflet Map       |       |   (AnimalShelter Class)   |
 | - dcc.RadioItems Filters |       |                           |
 +--------------------------+       +---------------------------+
+
 ```
 
 * **Model (`CRUD_Python_Module.py` & MongoDB)**: Encapsulates database connection handling, user authentication, and atomic CRUD operations (`create`, `read`, `update`, `delete`).
