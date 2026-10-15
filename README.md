@@ -57,8 +57,6 @@ The application adheres strictly to the **Model-View-Controller (MVC)** software
 +--------------------------+       +---------------------------+
 ```
 
----
-
 * **Model (`CRUD_Python_Module.py` & MongoDB)**: Encapsulates database connection handling, user authentication, and atomic CRUD operations (`create`, `read`, `update`, `delete`).
 * **View (`ProjectTwoDashboard.ipynb` - Layout)**: Built with `dash_table`, `dash_core_components`, `dash_html_components`, and `dash_leaflet` to render UI widgets, branding, and maps.
 * **Controller (`ProjectTwoDashboard.ipynb` - Callbacks)**: Reactive `@app.callback` decorators listen for user input (radio selections, table pagination, row selection), execute data transformations, and refresh views without page reloads.
@@ -110,6 +108,7 @@ my-repository/
 ├── CRUD_Python_Module.py                 # Model: Python class handling authenticated MongoDB CRUD routines
 ├── ProjectTwoDashboard.ipynb             # View/Controller: JupyterDash notebook housing layout & callbacks
 └── README.md                             # Technical project documentation
+```
 
 ---
 
