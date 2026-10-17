@@ -198,8 +198,6 @@ db.createUser({
 ---
 
 ## Author & Acknowledgments
-
-* **Developer:** Grace Jungclas
-* **Course:** CS 340: Client/Server Development
-* **Institution:** Southern New Hampshire University (SNHU)
-* **Partner Organizations:** Grazioso Salvare & Global Rain
+- **Lead Developer:** Grace Jungclas, MA, AT Ret
+- **Core Technologies:** Python, MongoDB, Plotly Dash, Leaflet, Pandas
+- **Domain Stakeholders:** Grazioso Salvare & Global Rain
