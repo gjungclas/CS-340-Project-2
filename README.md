@@ -1,12 +1,16 @@
-# CS-340-Project-2
-# Grazioso Salvare Animal Shelter Dashboard
+<p align="center">
+  <img src="assets/Grazioso%20Salvare%20Logo.png" alt="Grazioso Salvare Brand Logo" width="160"/>
+</p>
+
+# Search & Rescue Animal Telemetry & Candidate Identification Dashboard
+### Full-Stack Geospatial & Reactive Analytics Platform
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Database](https://img.shields.io/badge/database-MongoDB-green.svg)](https://www.mongodb.com/)
 [![Web Framework](https://img.shields.io/badge/framework-Plotly%20Dash-orange.svg)](https://dash.plotly.com/)
 [![Design Pattern](https://img.shields.io/badge/architecture-MVC-red.svg)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
 
-An interactive, full-stack client/server web application developed for **Grazioso Salvare** in collaboration with **Global Rain**. The system interfaces with the Austin Animal Center (AAC) outcomes dataset (over 10,000 records) to identify, filter, and visualize canine candidates suitable for international search-and-rescue (SAR) training.
+An interactive, full-stack client/server data analytics dashboard engineered to evaluate, filter, and track animal intake records for search-and-rescue (SAR) deployment suitability. The platform interfaces an authenticated MongoDB document store with a reactive Plotly Dash user interface, coordinating dynamic tabular filtering, aggregate categorical charts, and real-time Leaflet geospatial mapping.
 
 ---
 
